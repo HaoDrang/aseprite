@@ -7,7 +7,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [windows-latest, macos-latest]
-        build_type: [RelWithDebInfo, Release]
+        build_type: [Release]
         enable_ui: [on]
         include:
           - os: ubuntu-latest
